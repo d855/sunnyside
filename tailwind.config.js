@@ -8,7 +8,8 @@ module.exports = {
         extend: {
             backgroundImage: {
                 'headerMobile': "url('/images/mobile/image-header.jpg')",
-                'headerDesktop': "url('/images/desktop/image-header.jpg')"
+                'headerDesktop': "url('/images/desktop/image-header.jpg')",
+                'graphicDesign': "url('/images/mobile/image-graphic-design.jpg')"
             },
             colors: {
                 'primary-red': 'hsl(7, 99%, 70%)',
@@ -16,6 +17,7 @@ module.exports = {
                 'primary-dark-cyan': 'hsl(167, 40%, 24%)',
                 'primary-dark-blue': 'hsl(198, 62%, 26%)',
                 'primary-moderate-cyan': 'hsl(168, 34%, 41%)',
+                'primary-footer-cyan': '#90D4C5',
                 'neutral-dark-blue': 'hsl(212, 27%, 19%)',
                 'neutral-very-grayish-blue': 'hsl(213, 9%, 39%)',
                 'neutral-dark-grayish-blue': 'hsl(232, 10%, 55%)',

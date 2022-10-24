@@ -6,4 +6,21 @@
     html {
         font-family: 'Barlow', sans-serif;
     }
+
+
+}
+
+@layer components {
+    .link {
+        @apply relative font-serif uppercase font-black text-neutral-dark-blue hover:after:opacity-80;
+    }
+
+    .link::after {
+        @apply -bottom-0.5 -left-1.5 rounded-full opacity-30 transition-opacity duration-200 ease-in;
+        content: '';
+        width: 8rem;
+        z-index: -1;
+        height: .8rem;
+        position: absolute;
+    }
 }
